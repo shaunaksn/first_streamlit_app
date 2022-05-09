@@ -73,5 +73,5 @@ if streamlit.button('Add a fruit to the list'):
     streamlit.text(back_from_function)
 streamlit.write()
 #Don't run anything past here
-# streamlit.stop()
+streamlit.stop()
 
